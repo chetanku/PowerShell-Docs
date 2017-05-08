@@ -59,6 +59,8 @@ Registry [string] #ResourceName
 
 <li>Expandable string (REG_EXPAND_SZ)</li></ul>
 
+Values that Registry accepts: String, Binary, Dword, Qword, MultiString, ExpandString
+
 ## Example
 This example ensures that a key named "ExampleKey" is present in the **HKEY\_LOCAL\_MACHINE** hive.
 ```powershell
